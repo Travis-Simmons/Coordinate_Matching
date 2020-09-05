@@ -1,5 +1,5 @@
 # Coordinate_Matching
-Coordinate matching script for the Pauli / Lyons Lab the University of Arizona
+Coordinate matching script for the University of Arizona
 
 The purpose of this script is to process data that is produced by the StereoTopRGB phenotyping pipeline.
 https://phytooracle.readthedocs.io/en/latest/4_StereoTopRGB_run.html
