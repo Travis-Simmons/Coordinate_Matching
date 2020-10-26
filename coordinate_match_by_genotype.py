@@ -114,7 +114,7 @@ def main():
                 # creates a list of all the corrdinates like (x,y)
                 print('length 1:', f'{len(sub_df1)}')
                 print('length 2:', f'{len(sub_df2)}')
-                if (len(sub_df1) >13) & (len(sub_df2) >13 ):
+                if (len(sub_df1) != 13) & (len(sub_df2) != 13 ):
                     a_list_day1 = list(zip(sub_df1['long'], sub_df1['lat']))
                     a_list_day2 = list(zip(sub_df2['long'], sub_df2['lat']))
                     
@@ -132,7 +132,8 @@ def main():
                     while len(a_list_day2) >= 1 and len(a_list_day1) >=1:
                         
                         print(short)
-                        #This is the average radius of whatever plant you are measuring
+                        # This is the average radius of whatever plant you are measuring
+                        # This needs to turn into an argument
                         if short <0.06:
                         
                             # Finding the distances between all of the points.
@@ -244,7 +245,8 @@ def main():
                 # creates a list of all the corrdinates like (x,y)
                 print('length 1:', f'{len(sub_df1)}')
                 print('length 1:', f'{len(sub_df1)}')
-                if (len(sub_df1) >13) & (len(sub_df2) >13 ):
+                
+                if (len(sub_df1) != 13) & (len(sub_df2) != 13 ):
                     a_list_day1 = list(zip(sub_df1['long'], sub_df1['lat']))
                     a_list_day2 = list(zip(sub_df2['long'], sub_df2['lat']))
                     
@@ -266,6 +268,7 @@ def main():
                     while len(a_list_day2) >= 1 and len(a_list_day1) >=1:
                         print('check')
                         
+                        # This needs to turn into an argument
                         if short <0.06:
                             
                             # Finding the distances between all of the points.
